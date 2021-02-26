@@ -1,12 +1,22 @@
+
+/* Project:  Lab2
+ * Class:	 UniqueWord.java
+ * Author:   Britney Creamer
+ * Date:     February 26, 2021
+ * This program prints out the number of unique words within an ArrayList of
+ * strings.
+*/
 import java.util.ArrayList;
 
 public class UniqueWords {
+
 	/**
 	 * counts the number of unique strings in a list
 	 * 
 	 * @param list ArrayList of strings to be examined
 	 * @return number of unique strings in the list
 	 */
+
 	public static int countUnique(ArrayList<String> list) {
 		int count = 0;
 
